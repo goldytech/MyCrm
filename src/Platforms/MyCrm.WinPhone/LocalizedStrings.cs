@@ -1,6 +1,6 @@
-﻿using MyCrm.WinPhone.Resources;
+﻿using MyCrm.Helpers.Resources;
 
-namespace MyCrm.WinPhone
+namespace MyCrm.Helpers
 {
     /// <summary>
     /// Provides access to string resources.

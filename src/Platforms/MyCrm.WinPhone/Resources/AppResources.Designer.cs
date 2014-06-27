@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MyCrm.WinPhone.Resources
+namespace MyCrm.Helpers.Resources
 {
     using System;
 
