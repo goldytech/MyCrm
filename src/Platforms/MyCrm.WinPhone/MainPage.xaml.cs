@@ -1,22 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Navigation;
-using Microsoft.Phone.Controls;
-using Microsoft.Phone.Shell;
-using MyCrm.Helpers.Resources;
-
-namespace MyCrm.Helpers
+﻿namespace MyCrm.WinPhone
 {
+    using Microsoft.Phone.Controls;
+
+    using Xamarin.Forms;
+
     public partial class MainPage : PhoneApplicationPage
     {
         // Constructor
         public MainPage()
         {
             InitializeComponent();
+
+           // Forms.Init();
+           // this.Content = Shared.App.GetMainPage().ConvertPageToUIElement(this);
+
 
             // Sample code to localize the ApplicationBar
             //BuildLocalizedApplicationBar();
